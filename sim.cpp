@@ -1,7 +1,7 @@
 #include "raylib.h"
 #include "math.h"
 #include "stdlib.h"
-#include "iomanip"
+
 
 
 int main(void) {
@@ -22,14 +22,14 @@ SetTargetFPS(60);
 
 const static int NPARTICLES = 10000;
 
-float arrayParticlesX[NPARTICLES] = {};  
-float arrayParticlesY[NPARTICLES] = {}; 
+float arrayParticlesX[NPARTICLES];  
+float arrayParticlesY[NPARTICLES]; 
 
-double xArray[NPARTICLES] = {};
-double yArray[NPARTICLES] = {};
+double xArray[NPARTICLES];
+double yArray[NPARTICLES];
 
-int randomX[NPARTICLES] = {};
-int randomY[NPARTICLES] = {};
+int randomX[NPARTICLES];
+int randomY[NPARTICLES];
 
 float xx;
 float yy;
